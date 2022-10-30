@@ -49,11 +49,12 @@ ul {
   padding: 0px;
 }
 
-li{
+li {
   list-style: none;
 }
 
-input,button{
+input,
+button {
   outline: none;
 }
 
@@ -83,7 +84,7 @@ input,button{
   text-transform: uppercase;
 }
 
-.task-input{
+.task-input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -135,7 +136,7 @@ input,button{
   width: 226px;
 }
 
-.task-input{
+.task-input {
   width: 226px;
   flex-grow: 1;
 }
