@@ -52,8 +52,11 @@ var createNewTaskElement=function(taskString){
     label.classList.add('task-label');
     editInput.classList.add('task-input');
     editButton.classList.add('button');
+    editButton.setAttribute('title' , 'Edit task');
     deleteButton.classList.add('button');    
+    deleteButton.setAttribute('title' , 'Delete task');    
     deleteButtonImg.classList.add('delete-image');
+    deleteButtonImg.setAttribute('alt' , 'Delete task');  
 
 
     //and appending.
